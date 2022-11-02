@@ -1,8 +1,15 @@
-Introduction of Program Files
------------
+Copyright Notice
+=========
 Created on Fri Mar 10 22:38:46 2022
 
 @author: Wanyong Qiu (Executable files)
+
+#### Coding is not easy, please cite the following papers if they are helpful to your learning or writing.
+ 编码不易，如对您的学习和写作有帮助，请添加引用！BHE小伙伴paper合著能缀本人于末将不甚感谢啦！
+
+
+Introduction of Program Files
+=========
 
 #### 单音频处理
 ``openSmile-single_wav_LLD.py``
@@ -30,6 +37,7 @@ Created on Fri Mar 10 22:38:46 2022
 
 openSMILE
 =========
+openSMILE is a versatile and fast open-source toolkit for signal processing and machine learning applications.
 
 **Note:** this is the internal repository of openSMILE that includes proprietary, non-public
 components. You can find the open-source repository and official releases on 
@@ -38,6 +46,12 @@ components. You can find the open-source repository and official releases on
 See also the standalone [opensmile](https://github.com/audeering/opensmile-python)
 Python package for an easy-to-use wrapper if you are working in Python.
 
+Documentation
+-------------
+
+You can find extensive documentation with step-by-step instructions on how to build 
+openSMILE and get started at https://audeering.github.io/opensmile/index.html#
+
 Quick start
 -----------
 
@@ -45,32 +59,24 @@ For more details on how to customize builds, build for other platforms and use
 openSMILE, see Section [Get started](http://tools.pp.audeering.com/opensmile/get-started.html)
 in the documentation.
 
-### Linux/MacOS
 
-Prerequisites:
-- A version of gcc and g++ or Clang need to be installed that supports C++11.
-- CMake 3.5.1 or later needs to be installed and in the PATH.
-
-1. In ``build_flags.sh``, set build flags and options as desired.
-2. Run ``bash build.sh``.
-
-Build files will be generated in the ``./build`` subdirectory.
-You can find the main SMILExtract binary in ``./build/progsrc/smilextract``.
-
-### Windows
-
-Prerequisites:
-- Visual Studio 2017 or higher with C++ components is required.
-- CMake 3.15 or later needs to be installed and in the PATH.
-
-1. In ``build_flags.ps1``, set build flags and options as desired.
-2. Run ``powershell -ExecutionPolicy Bypass -File build.ps1``.
-
-Build files will be generated in the ``./build`` subdirectory.
-You can find the main SMILExtract.exe binary in ``./build/progsrc/smilextract``.
-
-Documentation
+References
 -------------
+1. [openSMILE 简介](https://blog.csdn.net/qq_22237367/article/details/80897271?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-2-80897271.pc_agg_new_rank&utm_term=Opensmile%E6%80%8E%E4%B9%88%E5%AD%A6&spm=1000.2123.3001.4430).
 
-You can find extensive documentation with step-by-step instructions on how to build 
-openSMILE and get started at http://tools.pp.audeering.com/opensmile/.
+2. [opensmile 工具的使用和批处理](https://tobefans.github.io/2020/05/02/opensmile/).
+
+3. [OpenSmile介绍和使用](https://blog.csdn.net/weijie_home/article/details/118754462).
+
+4. [SoX 安装（Ubuntu+win10）的新手误区和正确安装方法](https://blog.csdn.net/qq_35547879/article/details/79700591).
+
+5. [SoX - Sound eXchange Files](https://sourceforge.net/projects/sox/files/sox/).
+
+
+
+
+
+
+
+
+
