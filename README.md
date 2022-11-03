@@ -35,9 +35,7 @@ Introduction of Program Files
 ``openSmile_extract-class.py``
 该程序对多文件夹下的wav数据进行批量处理（通过执行命令），并按文件夹名分别输出多个.csv文件。
 
-#### This program files uses heart sound recordings from PhysioNet/CinC challenge.
-
-[Classification of Heart Sound Recordings:](https://physionet.org/content/challenge-2016/1.0.0.).
+### This program files uses heart sound recordings from PhysioNet/CinC challenge. [Classification of Heart Sound Recordings](https://physionet.org/content/challenge-2016/1.0.0.).
 
  
 openSMILE
