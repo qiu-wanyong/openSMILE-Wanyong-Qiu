@@ -5,7 +5,7 @@ Created on Fri Mar 10 22:38:46 2022
 @author: Wanyong Qiu (Executable files)
 
 #### Coding is not easy, please cite the following papers if they are helpful to your learning or writing.
- 编码不易，如对您的学习和写作有帮助，请添加引用！BHE小伙伴paper合著能缀本人于末将不甚感谢！
+ 编码不易，如对您的学习和写作有帮助，请添加引用！BHE小伙伴请勿随意共享，paper请找本人合著，感谢！
 
 
 Introduction of Program Files
